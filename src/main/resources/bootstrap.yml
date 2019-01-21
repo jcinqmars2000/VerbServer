@@ -1,0 +1,9 @@
+---
+spring:
+  application:
+    name: VerbServer
+  cloud:
+    config: 
+      uri: http://config.responsible-nrg.com
+  profiles:
+    active: verb  
